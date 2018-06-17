@@ -1,10 +1,12 @@
 {
-  "name": "dyi-adblocker",
+  "name": "diy adblocker",
   "version": "1.0",
   "description": "A simple adblocker",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
   "background": {
-    "scripts": ["blocked_domains.js", "background.js"]
+    "scripts": [ "background.js"]
   },
-  "mainfest_version": 2
+  "manifest_version": 2
 }
+
+/* "blocked_domains.js", */
