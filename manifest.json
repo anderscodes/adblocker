@@ -4,9 +4,7 @@
   "description": "A simple adblocker",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
   "background": {
-    "scripts": [ "background.js"]
+    "scripts": [ "background.js", "blocked_domains.js"]
   },
   "manifest_version": 2
 }
-
-/* "blocked_domains.js", */

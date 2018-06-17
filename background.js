@@ -3,6 +3,6 @@ chrome.webRequest.onBeforeRequest.addListener(
     console.log("blocking:", details.url);
     return {cancel: true };
   },
-  {urls: ["*://www.sickchirpse.com/"]},
+  {urls: blocked_domains},
   ["blocking"]
 );
