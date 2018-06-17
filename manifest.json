@@ -6,5 +6,8 @@
   "background": {
     "scripts": [ "background.js", "blocked_domains.js"]
   },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
   "manifest_version": 2
 }
